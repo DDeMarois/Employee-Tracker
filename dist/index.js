@@ -21,16 +21,8 @@ function loadMainPrompts() {
                     value: "ADD_EMPLOYEE",
                 },
                 {
-                    name: "Remove Employee",
-                    value: "REMOVE_EMPLOYEE",
-                },
-                {
                     name: "Update Employee Role",
                     value: "UPDATE_EMPLOYEE_ROLE",
-                },
-                {
-                    name: "Update Employee Manager",
-                    value: "UPDATE_EMPLOYEE_MANAGER",
                 },
                 {
                     name: "View All Roles",
@@ -41,20 +33,12 @@ function loadMainPrompts() {
                     value: "ADD_ROLE",
                 },
                 {
-                    name: "Remove Role",
-                    value: "REMOVE_ROLE",
-                },
-                {
                     name: "View All Departments",
                     value: "VIEW_DEPARTMENTS",
                 },
                 {
                     name: "Add Department",
                     value: "ADD_DEPARTMENT",
-                },
-                {
-                    name: "Remove Department",
-                    value: "REMOVE_DEPARTMENT",
                 },
                 {
                     name: "Quit",
@@ -108,12 +92,12 @@ function addEmployee() {
         {
             type: "input",
             name: "first_name",
-            message: "Enter the employee's first name",
+            message: "Enter the employee's first name:",
         },
         {
             type: "input",
             name: "last_name",
-            message: "Enter the employee's last name",
+            message: "Enter the employee's last name:",
         },
     ])
         .then((res) => {
@@ -225,12 +209,12 @@ function addRole() {
             {
                 type: "input",
                 name: "title",
-                message: "Enter the name of the new role",
+                message: "Enter the name of the new role:",
             },
             {
                 type: "input",
                 name: "salary",
-                message: "Enter the salary of the new role",
+                message: "Enter the salary of the new role:",
             },
             {
                 type: "list",
@@ -258,7 +242,7 @@ function addDepartment() {
         {
             type: "input",
             name: "name",
-            message: "Enter the name of the new department",
+            message: "Enter the name of the new department:",
         },
     ])
         .then((res) => {
