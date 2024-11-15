@@ -2,7 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 - Created an employee tracker to be able to see all the current employees information, and be able to add new ones as well.
 - I built this project to be able to be able to easily see who is employed and their roles, and to be able to add new employees when hired.
